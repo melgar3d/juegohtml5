@@ -8,9 +8,14 @@
 </head>
 
 <body>
+	<!-- Encerramos el canvas en un contenedor -->
+	<div id="contenedor">
 
-<canvas width="1000px" height="500" id="lienzo"></canvas>
-
+		<canvas width="1000px" height="500" id="lienzo"></canvas>
+		<button id="btn_ampliar" onclick="ampliar()">Ampliar canvas</button>
+	</div>
+	<div id="vertical">
+	</div>
 
 <!-- El script, lo colocamos al final para que cuando se ejecute, ya se haya cargado completamente la página -->
 <script  src="js/script.js"></script>
